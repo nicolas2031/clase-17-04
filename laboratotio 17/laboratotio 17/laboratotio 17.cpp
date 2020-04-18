@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+/*int main()
 
 {
 
@@ -24,21 +24,27 @@ int main()
 	return 0;
 
 
-}
+}*/
 
 int main()
 {
+	char t[] = "x y z f";
+	char q = 'x';
+	char w = 'y';
+	char e = 'z';
+	char r = 'f';
+	
+	//1
+	std::cout << t << std::endl;
+	//2
+	std::cout << q << " " << w << " " << e << " " << r << std::endl;
+	//3
+	std::cout << q << std::endl;
+	std::cout << w << std::endl;
+	std::cout << e << std::endl;
+	std::cout << r << std::endl;
+	
 
-	int x = 4;
-	int y = 3;
-	int z = 2;
-	int s = 1;
-
-	std::cout << "sus nnumeros adyacentes de 1 son: " << "0," << s << ",2" << std::endl;
-	std::cout << "sus nnumeros adyacentes de 2 son: " << "1," << z << ",3" << std::endl;
-	std::cout << "sus nnumeros adyacentes de 3 son: " << "2," << y << ",4" << std::endl;
-	std::cout << "sus nnumeros adyacentes de 4 son: " << "3," << x << ",5" << std::endl;
-	return 0;
 
 }
 
@@ -47,7 +53,7 @@ int main()
 
 
 
-int main()
+/*int main()
 
 {
 	int x;
@@ -119,7 +125,7 @@ int main()
 
 
 
-}
+}*/
 
 
 
